@@ -126,7 +126,7 @@ namespace OculusSetup
             }
 
             Color endColor = Color.white;
-            endColor.a = 0.0f;
+            endColor.a = 1.0f;
 
             m_LineRenderer.endColor = endColor;
 

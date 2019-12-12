@@ -151,7 +151,7 @@ namespace Runtime
                 break;
 
                 case "Questions":
-                    Question[] questions = (Question[])value;
+                    Modules.Question[] questions = (Modules.Question[])value;
 
                     mcq_progress = mcq_progress + direction;
 
